@@ -1,0 +1,31 @@
+# Secrets
+.env
+env/
+ENV/
+
+# Seed data (proprietary to course, not included in public repo)
+data/profile.json
+data/training_history.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Local Claude Code instructions (per-developer, not shared)
+CODING_CONVENTIONS.md
